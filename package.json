@@ -1,0 +1,23 @@
+{
+  "name": "nw-datasheet-reader",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Jasper Catthoor",
+  "license": "ISC",
+  "dependencies": {
+    "globby": "^12.0.1",
+    "yauzl": "https://github.com/Kattoor/yauzl.git",
+    "workerpool": "^6.1.5",
+    "ffi-napi": "^4.0.3"
+  },
+  "type": "module",
+  "exports": "./nw-datasheet-reader.mjs",
+  "engines": {
+    "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+  },
+  "devDependencies": {}
+}
