@@ -131,7 +131,7 @@ function toJson(headers, rows) {
         }
         return record;
     });
-    return JSON.stringify(records);
+    return JSON.stringify(records, null, 4);
 }
 
 async function saveFile(path, out) {
