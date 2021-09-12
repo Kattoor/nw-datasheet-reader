@@ -2,7 +2,6 @@
   "name": "nw-datasheet-reader",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,7 +15,7 @@
     "ffi-napi": "^4.0.3"
   },
   "type": "module",
-  "exports": "./nw-datasheet-reader.mjs",
+  "exports": "./index.js",
   "engines": {
     "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
   },
